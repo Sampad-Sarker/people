@@ -1,0 +1,36 @@
+.profileArea{
+    display: block;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* .imagePlace{
+    background-color: red;
+} */
+
+.profileArea img{
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.profile-name{
+    font-weight: 400;
+    color: blue;
+    margin: 0px;
+}
+
+button{
+    background-color: goldenrod;
+    padding: 5px 20px;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    cursor: pointer;
+}
