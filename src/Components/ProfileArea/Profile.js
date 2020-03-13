@@ -23,6 +23,7 @@ const Profile = (props) => {
                 <p>Contact Number:{phone}</p>
                 <p>Salary:${salary}</p>
                 <button onClick={() => props.buttonOnClick(props.profileItem)}><FontAwesomeIcon icon={faUserPlus} />Add me</button>
+                {/* <button onClick={() => props.buttonOnClick(props.profileItem)}>Add me</button> */}
             </div>
             <br/>
             
