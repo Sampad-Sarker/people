@@ -18,6 +18,13 @@ const Summary = (props) => {
             <h3>Overall Summary</h3>
             <h6>Added person number:{summary.length}</h6>
             <h6>Total salary:{total}</h6>
+            <br/>
+            <h6 id="addedPeopleStyle">Added Peoples' Profile</h6>
+            <ul>
+                {
+                    summary.map(el => <li><img src={el.img} alt=""/></li>)
+                }
+            </ul>
             
 
              

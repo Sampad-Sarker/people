@@ -47,6 +47,7 @@ const MainArea = () => {
             <div className="summary">
                 
                 <Summary summary={summary}></Summary>
+               
             </div>
             
         </div>

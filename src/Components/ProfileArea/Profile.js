@@ -6,7 +6,7 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 const Profile = (props) => {
     //console.log(props);
     const {img,name,email,phone,salary}=props.profileItem;
-    console.log("image src",img,"name",name);
+    //console.log("image src",img,"name",name);
     return (
         <div className="profileArea">
             <div>
